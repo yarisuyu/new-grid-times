@@ -94,7 +94,9 @@ const SportsStories = styled.div`
 `;
 
 const SportsStoryWrapper = styled.div`
-  min-width: 220px;
+  @media ${QUERIES.tabletAndUp} {
+    min-width: 220px;
+  }
 `;
 
 export default SpecialtyStoryGrid;
